@@ -1,0 +1,169 @@
+@viewport{
+  zoom:1.0;
+  width: extend-to-zoom;
+}
+@font-face {
+    font-family: ownfont;
+    src: url(Metropolis-Regular.otf);
+}
+@font-face {
+    font-family:ownfont1;
+    src:url(Arista.ttf);
+}
+body{
+  background-image: url(cit.jpg);
+  background-size:120% 150%;
+  background-position: right;
+  background-blend-mode: overlay  ;
+  background-color: hsl(0, 0%, 5%);
+  background-attachment:fixed;
+  color: White;
+}
+#header
+{
+  background-color: hsl(220.1, 89.8%, 53.9%);
+  border-radius: 5px 5px 5px 5px;
+  color:White;
+  text-align:center;
+  font-size:200%;
+  font-family:sans-serif;
+  margin:-5px;
+  padding-top:30px;
+  padding-bottom:20px ;
+  height: 50px;
+  weight:5px;
+}
+#soc{
+  text-align:center;
+  font-size: 150%;
+  font-family: courier;
+  padding: 10;
+  margin:20;
+  height: 100;
+}
+#details{
+  text-align: left;
+  font-family:ownfont;
+  border: 3px solid  hsl(190.5, 84.5%, 69.6%);
+  padding:50px;
+  height:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:680px;
+  font-size: 130%;
+}
+.site{
+  color:DodgerBlue;
+}
+#facimg{
+  float: right;
+  width: 200px;
+  height: 200px;
+}
+#facspan{
+  text-align:right ;
+  position: relative;
+  left: 25%;
+}
+#homealign{
+  height: 630px;
+}
+#cout{
+  text-align: center;
+  margin: 50px;
+  background-color:#8b35e7;
+  padding: 20px;
+  font-family: ownfont;
+  letter-spacing: 1;
+  border-radius:25px 25px 25px 25px;
+  margin-bottom: 120px;
+  margin-left: 50px;
+}
+#chead{
+  max-width: 300px;
+  position:sticky;
+  text-align: center;
+  border:solid 2px #ad69dd;
+  border-radius: 2px 2px 2px 2px;
+
+}
+.course{
+  background-color: hsl(1, 0%, 5%);
+  border-radius: 20px 20px 20px 20px;
+  width:  400px;
+  height: 300px;
+  margin: 10%;
+  padding: 4%;
+  font-family:ownfont;
+  text-align: center;
+  letter-spacing:1.5;
+  overflow: hidden;
+}
+#co1{
+  background-image: url(img1.png);
+  background-blend-mode:overlay;
+}
+#co2{
+  background-image: url(img2.jpg);
+  background-blend-mode:overlay;
+}
+#co3{
+  background-image: url(img3.jpg);
+  background-blend-mode:overlay;
+}
+#co4{
+  background-image: url(img4.jpg);
+  background-size: 500px  500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode:overlay;
+}
+.course:hover{
+  background-color: hsl(1, 0%, 10%);
+}
+.bookhead{
+  position: relative;
+  eft:35%;
+  font-family:ownfont;
+  text-align: center;
+  color: white;
+  font-size: 120%;
+  border-bottom:2px solid White;
+  margin: 10px;
+  padding: 2px;
+  width: 30%;
+}
+#tb{
+  position: relative;
+  background-color: #7000fc;
+  border-radius: 20px 0px 20px 0px;
+  font-size:120%;
+  font-family:ownfont;
+  margin: 40px;
+  width: 70%;
+  eft: 11%;
+  padding: 2%;
+  float: none;
+}
+#rb{
+  position: relative;
+  background-color: #7000fc;
+  border-radius: 20px 0px 20px 0px;
+  font-family:ownfont;
+  font-size:120%;
+  margin: 40px;
+  eft: 11%;
+  width: 70%;
+  padding: 2%;
+}
+#foot{
+  margin: -8px;
+  margin-bottom: -20px;
+  text-align:right;
+  height: 6%;
+  padding: 0.5%;
+  padding-top: 0.9%;
+  background-color:#000000e6;
+  font-family:serif;
+}
